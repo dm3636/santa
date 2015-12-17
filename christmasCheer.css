@@ -1,17 +1,19 @@
 body
 {
-	background-color:red;
+	background-image:url('assets/canvas.png');
 	margin:0px;
+	text-align:center;
 }
 
 
 div
 {
-	background-color:white;
+	background-color:rgba(150,150,75,0.7);
 	position:relative;
-	padding:0px;
-	margin-bottom:0px;
 	text-align:center;
+	padding:10px;
+	border:10px solid white;
+	color:white;
 }
 
 
