@@ -1,0 +1,21 @@
+body
+{
+	background-color:red;
+	margin:0px;
+}
+
+
+div
+{
+	background-color:white;
+	position:relative;
+	padding:0px;
+	margin-bottom:0px;
+	text-align:center;
+}
+
+
+h1
+{
+	font-size:3em;
+}
