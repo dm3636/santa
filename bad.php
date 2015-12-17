@@ -9,7 +9,7 @@
 			<h2>Satan is not at all impressed, here's what he had to say on the matter</h2>
 			<a>
 				<?php
-					echo "yee";
+					include("scrape.php")
 				?>
 			<a/>
 		</div>
