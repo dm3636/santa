@@ -1,12 +1,27 @@
 <?php
 
-echo 'scum';
+include('simple_html_dom.php');
+
 // Create DOM from URL or file
-//$html = str_get_html('http://www.gotlines.com/insults/');
-$html = file_get_html('https://davidwalsh.name/php-notifications');
+$html = file_get_html("http://onelinefun.com/insults/");
 
-// Find all insults
-foreach($html->find('a') as $e)
-    echo $e->href . '<br>';
+echo '$html = ';
+var_dump($html);
+/*
+$items = $html->find('.line_box_text');
 
+echo '$items = ';
+print_r($items);
+
+
+$jobs = array();
+foreach($items as $item){
+    $job = array();
+    $job["title"] = $item->find('a')->plaintext;
+    echo 'scum = ' . $item->find('a')->plaintext;
+    $jobs[] = $job;
+}
+
+print_r($jobs);
+*/
 ?>
