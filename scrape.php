@@ -3,7 +3,7 @@
 include("simple_html_dom.php");
 
 // Create DOM from URL or file
-//$html = file_get_html("http://www.gotlines.com/insults/");
+$html = file_get_html('http://www.gotlines.com/insults/');
 
 echo '$html = ';
 //var_dump($html);
