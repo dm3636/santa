@@ -1,6 +1,6 @@
 <?php
 
-include("simple_html_dom.php");
+include('simple_html_dom.php');
 
 // Create DOM from URL or file
 $html = file_get_html("http://onelinefun.com/insults/");
