@@ -6,8 +6,8 @@ include("simple_html_dom.php");
 $html = file_get_html('http://www.gotlines.com/insults/');
 
 echo '$html = ';
-var_dump($html);
-/*
+//var_dump($html);
+
 $items = $html->find('.line_box_text');
 
 echo '$items = ';
@@ -23,5 +23,5 @@ foreach($items as $item){
 }
 
 print_r($jobs);
-*/
+
 ?>
